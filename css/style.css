@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: aliceblue;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, .sobreMim{
+    background-color: #B40486;
+}
+ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-transform: uppercase;
+    height: 10vh;
+    text-decoration: none;
+   
+}
+
+ul > li {
+    list-style: none;
+}
+
+body{
+    color: black;
+}
+
+.banner{
+    text-align: center;
+    text-transform:full-width;
+    margin-top: 200px;
+    font-size: 1.5rem;
+}
+.banner_title-color{
+    color:white;
+}
+.seta{
+    padding: 50px;
+}
+.seta_img{
+    width: 2%;
+}
+.projetos_title,  .titles{
+    color: #000000;
+    text-align: center;
+    padding: 50px;
+}
+.projetos_site{
+    display: flex;
+}
+.projetos{
+    height: 90vh;
+}
+.site_img{
+    width:90%;
+}
+.site_title{
+    color: #000000;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 20px;
+    text-align: center;
+}
+.btn_link{
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    margin-top: 18px;
+    font-size: 1rem;
+    margin-bottom: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.sobreMim{
+    background-color: #B40486;
+    text-align: center;
+}
+.sobreMim_img{
+    background-color: black;
+    border-radius: 100%;
+    height: 157px;
+    object-fit: cover;
+    width: 157px;
+}
+.projetos{
+    height: auto;
+}
+.contato{
+    height: 50vh;
+}
+.contato_icons{
+    display: flex;
+    height: 10vh;
+    justify-content: space-around;
+}
+.contato_img{
+    width: 10%;    
+}
+.contato_img-icon{
+    width: 100%;
+}
+.redes-sociais-link {
+  background-color: #B40486;
+  color: white;
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  margin-left: 3.5rem;
+  text-decoration: none;
+}
+
+footer{
+    background-color: #B40486;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+.div{
+     height: auto;
+}
+
+/*RESPONSIVO MOBILE
+media queries
+*/
+@media (max-width: 768px) {
+    .container {
+        width: 368px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .intro__titulo {
+        font-size: 70px;
+    }
+    
+    .texto p {
+        font-size: 30px;
+    }
+    
+    .sobre {
+        background-position: center bottom;
+    }
+}
+
